@@ -1,12 +1,13 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "package": "tfar.everytimesomeonedieseveryonelosesarandominventoryslot.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "examplemod.refmap.json",
   "mixins": [
+    "PlayerContainerMixin",
+    "PlayerInventoryMixin"
   ],
-  "client":[
-    "ExampleMixin"
+  "client": [
   ],
   "injectors": {
     "defaultRequire": 1
